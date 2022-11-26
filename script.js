@@ -23,28 +23,249 @@ let songitemss=Array.from(document.getElementsByClassName("songItem"));
 
 const music_list = [
     {
-        img : 'images/stay.png',
-        name : 'Stay',
-        artist : 'The Kid LAROI, Justin Bieber',
-        music : 'music/TheLastRide.mp3'
+        img : 'images/1.jfif',
+        name : '3 Peg',
+        artist : 'Sharry Maan',
+        music : 'music/1.m4a'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'Wid Cards',
-        music : 'music/fallingdown.mp3'
+        img : 'images/2.jfif',
+        name : 'Brown Munde',
+        artist : 'AP Dhillon ',
+        music : 'music/2.m4a'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
-        music : 'music/Faded.mp3'
+        img : 'images/3.jfif',
+        name : '295',
+        artist : 'Sidhu Moosewaala',
+        music : 'music/3.m4a'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
-        artist : 'Clean Bandit',
-        music : 'music/Rather Be.mp3'
+        img : 'images/4.jfif',
+        name : 'Game',
+        artist : 'Sidhu Moosewaala',
+        music : 'music/4.m4a'
+    },
+    {
+        img : 'images/5.jfif',
+        name : 'Elevated',
+        artist : 'Shubh',
+        music : 'music/5.m4a'
+    },
+    {
+        img : 'images/6.jfif',
+        name : 'Phulkari',
+        artist : 'Karan Randhawa',
+        music : 'music/6.m4a'
+    },
+    {
+        img : 'images/7.jfif',
+        name : '8 Parche',
+        artist : 'Baani Sandhu',
+        music : 'music/7.m4a'
+    },
+    {
+        img : 'images/8.jfif',
+        name : '12 Bande',
+        artist : 'Varinder Brar',
+        music : 'music/8.m4a'
+    },
+    {
+        img : 'images/9.jfif',
+        name : 'GOAT',
+        artist : 'Sidhu Moosewaala',
+        music : 'music/9.m4a'
+    },
+    {
+        img : 'images/10.jfif',
+        name : 'Daku',
+        artist : 'Inderpal Moga',
+        music : 'music/10.m4a'
+    },
+    {
+        img : 'images/12.jfif',
+        name : 'Bapu Zimidar',
+        artist : 'Jassi Gill',
+        music : 'music/12.m4a'
+    },
+    {
+        img : 'images/11.jfif',
+        name : 'Patiala Peg',
+        artist : 'Diljit Dosanjh',
+        music : 'music/11.m4a'
+    },
+    {
+        img : 'images/13.jfif',
+        name : '8 raflaan',
+        artist : 'Mankirt Aulakh ',
+        music : 'music/13.m4a'
+    },
+    {
+        img : 'images/14.jfif',
+        name : 'Distance Love',
+        artist : 'Zehr Vibe',
+        music : 'music/14.m4a'
+    },
+    {
+        img : 'images/15.jfif',
+        name : 'The Last Ride',
+        artist : 'Sidhu Moosewaala',
+        music : 'music/15.m4a'
+    },
+    {
+        img : 'images/16.jfif',
+        name : 'We Rollin',
+        artist : 'Shubh',
+        music : 'music/16.m4a'
+    },
+    {
+        img : 'images/17.jfif',
+        name : 'Diamond',
+        artist : 'Gurnam Bhullar',
+        music : 'music/17.m4a'
+    },
+    {
+        img : 'images/18.jfif',
+        name : 'Bhalwani Gedi',
+        artist : 'Jassa Dhillon',
+        music : 'music/18.m4a'
+    },
+    {
+        img : 'images/19.jfif',
+        name : 'Baapu',
+        artist : 'Sidhu Moosewaala',
+        music : 'music/19.m4a'
+    },
+    {
+        img : 'images/20.jfif',
+        name : 'Aadat',
+        artist : 'Ninja',
+        music : 'music/20.m4a'
+    },
+    {
+        img : 'images/21.jfif',
+        name : 'Main Vechara',
+        artist : 'Armaan Bedil',
+        music : 'music/21.m4a'
+    },
+    {
+        img : 'images/22.jfif',
+        name : 'Udd Gya',
+        artist : 'B Praak',
+        music : 'music/22.m4a'
+    },
+    {
+        img : 'images/23.jfif',
+        name : 'Bhabhi',
+        artist : 'Mankirt Aulakh',
+        music : 'music/23.m4a'
+    },
+    {
+        img : 'images/24.jfif',
+        name : 'Chan Vekheya',
+        artist : 'Harnoor',
+        music : 'music/24.m4a'
+    },
+    {
+        img : 'images/25.jfif',
+        name : 'Chitta Kurta',
+        artist : 'Karan Aujla',
+        music : 'music/25.m4a'
+    },
+    {
+        img : 'images/26.jfif',
+        name : 'Death Route',
+        artist : 'Sidhu Moosewaala',
+        music : 'music/26.m4a'
+    },
+    {
+        img : 'images/27.jfif',
+        name : 'Lahore',
+        artist : 'Guru Randhawa',
+        music : 'music/27.m4a'
+    },{
+        img : 'images/28.jfif',
+        name : 'Hostel',
+        artist : 'Sharry Maan',
+        music : 'music/28.m4a'
+    },
+    {
+        img : 'images/29.jfif',
+        name : 'Jhanjhar',
+        artist : 'Karan Aujla',
+        music : 'music/29.m4a'
+    },
+    {
+        img : 'images/30.jfif',
+        name : 'Judge',
+        artist : 'Mankirt Aulakh',
+        music : 'music/30.m4a'
+    },
+    {
+        img : 'images/31.jfif',
+        name : 'Just Listen',
+        artist : 'Sidhu Moosewaala',
+        music : 'music/31.m4a'
+    },
+    {
+        img : 'images/33.jfif',
+        name : 'Khaab',
+        artist : 'Akhil',
+        music : 'music/33.m4a'
+    },
+    {
+        img : 'images/34.jfif',
+        name : 'Ki Krde Je',
+        artist : 'Nimrat Khaira',
+        music : 'music/34.m4a'
+    },
+    {
+        img : 'images/35.jfif',
+        name : 'Laare',
+        artist : 'Maninder Bhuttar',
+        music : 'music/35.m4a'
+    },
+    {
+        img : 'images/36.jfif',
+        name : 'Legend',
+        artist : 'Sidhu Moosewaala',
+        music : 'music/36.m4a'
+    },
+    {
+        img : 'images/37.jfif',
+        name : 'Levels',
+        artist : 'Sidhu Moosewaala',
+        music : 'music/37.m4a'
+    },
+    {
+        img : 'images/38.jfif',
+        name : 'Libaas',
+        artist : 'Kaka',
+        music : 'music/38.m4a'
+    },
+    {
+        img : 'images/39.jfif',
+        name : 'Mai Teri Ho Gyi',
+        artist : 'Millind Gaba',
+        music : 'music/39.m4a'
+    },
+    {
+        img : 'images/40.jfif',
+        name : 'Mera Yaar',
+        artist : 'Gurnaam Bhullar',
+        music : 'music/40.m4a'
+    },
+    {
+        img : 'images/41.jfif',
+        name : 'Mere Beliya Ve',
+        artist : 'Gurnam Bhullar',
+        music : 'music/41.m4a'
+    },
+    {
+        img : 'images/42.jfif',
+        name : 'Mere Wala Sardar',
+        artist : 'Jugraj',
+        music : 'music/42.m4a'
     }
 ];
 
@@ -70,11 +291,12 @@ function random_bg_color(){
 }
 const makeAllPlays = ()=>{
     Array.from(document.getElementsByClassName('play-pause')).forEach((element)=>{
+        element.classList.remove('fa-play-circle');
         element.classList.remove('fa-pause-circle');
-        // element.classList.add('fa-play-circle');
     })
 }
 random_bg_color();
+loadTrack(0);
 Array.from(songitemss).forEach((element)=>{
     element.addEventListener('click', (e)=>{ 
         makeAllPlays();
@@ -84,6 +306,7 @@ Array.from(songitemss).forEach((element)=>{
         track_index =e.target.id;
         else
         track_index = e.target.parentNode.id;
+        
         // console.log(track_index);
         // document.getElementsByClassName("play-pause").classList.remove("fa-play-circle");
         document.getElementsByClassName("play-pause")[track_index].classList.add("fa-pause-circle");
@@ -92,6 +315,14 @@ Array.from(songitemss).forEach((element)=>{
         // e.target.classList.add('fa-pause-circle');
         loadTrack(track_index);
         playTrack();
+        var x = window.matchMedia("(max-width: 768px)")
+        if(x.matches)
+        {
+            document.getElementById("wrapper").style.display="block";
+            document.getElementById("songList").style.display="none";
+            document.getElementById("hammburger").style.display="block";
+            
+        }
         
     })
 })
@@ -220,11 +451,8 @@ songitemss.forEach((element,i) => {
 function myFunction() {
     var x = document.getElementById("wrapper");
     var y = document.getElementById("songList");
-    if (x.style.display === "block") {
       x.style.display = "none";
       y.style.display ="block"
-    } else {
-      x.style.display = "block";
-      y.style.display = "none";
+      document.getElementById("hammburger").style.display="none";
     }
-  }
+  
