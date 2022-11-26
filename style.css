@@ -23,6 +23,7 @@ body{
     align-items: center;
     border: 1px solid transparent;
     /* border: #3774ff solid 3px; */
+    height: 96vh;
     justify-content: center;
     border-radius: 20px;
     margin-left: 40px;
@@ -102,7 +103,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.hammburger{
+#hammburger{
     display: none;
 }
 .seek_slider,
@@ -212,10 +213,10 @@ i.fa-step-backward{
     color: white;
     font-family: "Varela Round", sans-serif;
     /* padding: 34px; */
-    height: 70vh;
+    height: 75vh;
     /* position: relative; */
-    width: 40vw;
-    margin-top: 30px;
+    width: 50vw;
+    /* margin-top: 30px; */
     text-align: center;
     /* border: #4286f4 solid 2px; */
   /* background:transparent; */
@@ -238,6 +239,10 @@ i.fa-step-backward{
     /* border: solid black 2px; */
     padding: 0px 10px;
     
+  }
+  .songItem img{
+    height: 40px;
+    width: 40px;
   }
   
   .stroke:nth-child(1){
@@ -290,13 +295,13 @@ i.fa-step-backward{
   }
 
 
-  @media only screen and (max-device-width: 480px)
+  @media only screen and (max-device-width: 768px)
   {
     .player{
         flex-direction: column;
     }
     .hammburger{
-        display: block;
+        display: none;
     }
     .container
     {   
@@ -312,11 +317,12 @@ i.fa-step-backward{
         color: #f1f1f1;
     }
     #songList{
-        display: none;
+        display: block;
         /* min-width: fit-content; */
         /* min-height: fit-content; */
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 5vh;
+        height: 90vh;
         /* height: 60vh; */
         /* border: solid 20px red; */
         /* justify-content: center; */
@@ -325,6 +331,7 @@ i.fa-step-backward{
 
     .songItemContainer{
         width: 90vw;
+        height: 77vh;
         /* text-align: center; */
         overflow-y: scroll;
         /* height:90vh; */
@@ -350,19 +357,36 @@ i.fa-step-backward{
     transition: opacity .2s;
 }
 .track-art{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+}
+.now-playing{
+    margin-bottom: 1vh;
+    font-size: 20px;
+}
+.details{
+    margin: 1vh 0;
+}
+.buttons{
+    margin: 1vh 0;
 }
 #wrapper{
     height: 90vh;
-    /* min-height: fit-content; */
+    min-height: fit-content;
     /* width: 96vw; */
-    display: block;
-    margin: 2vh 2vw 0 2vw;
+    display: none;
+    margin: 3vh 2vw 0 2vw;
     /* padding: 20px 0; */
     min-width: fit-content;
 }
 #wave{
     display: none;
 }
+.track-name{
+    margin: 1vh 0;
 }
+.track-artist{
+    margin: 1vh 0;
+}
+}
+/* only screen and (min-width:321px) and (max-width:768px) */
